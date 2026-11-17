@@ -1,0 +1,22 @@
+print("===MY Profile===")
+
+nama = input("Masukkan nama Anda: ")
+umur = int(input("Masukkan umur Anda: "))
+jurusan = input("Masukkan jurusan Anda: ")
+hobi = input("Masukkan hobi Anda: ")
+kendaraan = input("Masukkan kendaraan yang Anda miliki: ")
+pemerintah = input("Apakah Anda mendukung pemerintah? (ya/tidak): ")
+
+print("\n===Profile===")
+print("Nama:", nama)
+print("Umur:", umur)
+print("Jurusan:", jurusan)
+print("Hobi:", hobi)
+print("Kendaraan:", kendaraan)
+print("Pemerintah:", pemerintah)
+print("---------------")
+print("Hello, " + nama + "!")
+print("Anda berumur " + str(umur) + " tahun dan sedang menempuh jurusan " + jurusan + ".")
+print("Hobi Anda adalah " + hobi + " dan kendaraan yang Anda miliki adalah " + kendaraan + ".")
+if pemerintah.lower() == "ya":
+    print("Anda mendukung pemerintah.")
